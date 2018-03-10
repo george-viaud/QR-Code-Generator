@@ -37,7 +37,7 @@
 <br/>
 <div id="qrcode"></div>
 
-<p>Created by <a href="http://www.iamrohit.in">Rohit Kumar</a></p>
+<p>Based on code by <a href="http://www.iamrohit.in">Rohit Kumar</a></p>
 <script type="text/javascript" src="js/jquery/1.12.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
 <script>
@@ -48,7 +48,7 @@
        	   $("#qrcode").html("");
            var txt = $.trim($('textarea[name="txt"]').val());
            if(txt == '') {
-       	   	 alert("Please enter text you want to embed in OR Code");
+       	   	 alert("Please enter text you want to embed in QR Code");
        	   	 return false;
        	   }
            var size = $('select[name="size"]').val();
